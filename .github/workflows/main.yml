@@ -6,19 +6,19 @@ on:
       LOCAL_MANIFEST_URL:
         description: 'LOCAL_MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
-        default: 'https://github.com/sounddrill31/local_manifests'
+        default: 'https://github.com/israfilbd/local_manifests'
       LOCAL_MANIFEST_BRANCH:
         description: 'LOCAL_MANIFEST_BRANCH'
         required: true
-        default: 'lineage-oxygen'
+        default: 'infinity-17'
       ROM_MANIFEST_URL:
         description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
-        default: 'https://github.com/LineageOS/android'
+        default: 'https://github.com/ProjectInfinity-X/manifest'
       ROM_MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'lineage-20.0'
+        default: '17'
       CHOICE:
         type: choice
         description: 'Which would you like to test?'
